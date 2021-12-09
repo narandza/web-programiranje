@@ -133,7 +133,7 @@ for(let i=0;i<reviewName.length;i++){
             <div class="box">
                 <img src="assets/images/quote.png" alt="quote" class="quote">
                 <p>${reviewText[i]}</p>
-                <img src="../assets/images/pic-${i+1}.jpg" alt="user-${i+1}" class="user">
+                <img src="assets/images/pic-${i+1}.jpg" alt="user-${i+1}" class="user">
                 <h3>${reviewName[i]}</h3>
                 <div class="stars">
                     ${starRating(reviewRating[i])}
