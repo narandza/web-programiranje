@@ -275,7 +275,7 @@ function contactHandeler(){
         textErr.html("This field is empty!")
         errors++
     }else{
-        text.html("")
+        textErr.html("")
     }
 
     if(errors == 0){
