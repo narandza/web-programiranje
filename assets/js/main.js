@@ -1,8 +1,3 @@
-// to do: 
-//date
-//jquery
-//dokumentacija
-
 //navbar dropdown
 let navbar = document.querySelector('.navbar')
 
@@ -124,7 +119,7 @@ products.innerHTML = productHtml;
 
 let review = $('.review .box-container')
 var reviewText = ['Many beers from around the world to choose from. You can stand inside, or sit in the beer garden just next to it. A lovely break.' ,'Excellent place for beer! Good food too and a fun atmosphere. Not your traditional pub, which we love when looking for more craft beers! Very friendly staff','Beer beer and beer. Its all about the beer. Do you like beer. Of course you do. It is an immutable law. No one alive does not like beer there are just some who havent realised it yet. When you become one who has realised then go here and sate your palate.']
-var reviewName = ['Dejan Govedarica', 'Mulan Putrović', 'Yashemte Popesku']
+var reviewName = ['Dejan Govedarica', 'Mulan Putrović', 'Xin Zhao']
 var reviewRating = [5,4,5]
 var reviewHtml=""
 
