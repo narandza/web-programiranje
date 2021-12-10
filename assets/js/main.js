@@ -37,6 +37,7 @@ var html=""
 for(i=0;i<navbarLinks.length;i++){
     html+=`<a href="#${navbarLinks[i]}">${navbarLinks[i]}</a>`
 }
+html+='<a href="assets/docs/documentation.pdf">Documentation</a>'
 navbar.innerHTML = html;
 footerLinks.innerHTML = html;
 
@@ -49,8 +50,7 @@ var cartPrice = [14.99,4.99,2.99]
 var cartHtml = ""
 let iCart= 0;
 do {
-    cartHtml+=`
-    <div class="cart-item">
+  `  <div class="cart-item">
         <span class="fas fa-times remove"></span>
         <img src="assets/images/cart-item-${iCart+1}.jpg" alt="${cartContent[iCart]}">
         <div class="content">
